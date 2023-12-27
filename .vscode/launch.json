@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/devchaudhari/Desktop/Nuclear Codes/project Substitution",
+      "program": "/Users/devchaudhari/Desktop/Nuclear Codes/project Substitution/build/Debug/outDebug"
+    }
+  ]
+}
