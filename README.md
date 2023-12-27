@@ -10,7 +10,6 @@ This C program encrypts and decrypts messages using the substitution cipher tech
   - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [How to Compile](#how-to-compile)
 - [Input Validation](#input-validation)
 - [Sample Output](#sample-outputs)
 - [Contributing](#contributing)
@@ -54,7 +53,7 @@ Run the program with the following command:
 ./substitution key
 ```
 
-## Features
+## Features <a name="features"></a>
 
 - **Encryption**: Converts plaintext messages into ciphertext using the provided substitution key.
 - **Decryption**: Converts ciphertext back into plaintext using the same key.
@@ -62,7 +61,7 @@ Run the program with the following command:
   - Contains 26 characters
   - Consists only of alphabetic characters without duplicates
 
-## Input Validation
+## Input Validation <a name="input-validation"></a>
 
 The program performs multiple checks on the provided key to ensure its validity:
 
@@ -71,7 +70,7 @@ The program performs multiple checks on the provided key to ensure its validity:
 - The substitution key consists only of alphabetic characters without duplicates.
 - User inputs 1 for encryption and 2 for decryption.
 
-## Sample Output
+## Sample Output <a name="sample-outputs"></a>
 
 ### Encrypting a Message
 
@@ -90,10 +89,5 @@ Ciphertext = Itssg, vgksr!
 Plaintext: Hello, world!
 ```
 
-## Contributing
+## Contributing <a name="contributing"></a>
 Contributions are welcome! If you have suggestions, improvements, or bug fixes, please feel free to open an issue or create a pull request.
-
-##
-
-
-
